@@ -130,6 +130,7 @@ const TodoApp = () => {
             <div 
               key={column.id} 
               className="kanban-column"
+              onDragEnter={handleDragOver}
               onDragOver={handleDragOver}
               onDrop={(e) => handleDrop(e, column.id)}
             >

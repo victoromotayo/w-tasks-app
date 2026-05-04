@@ -244,6 +244,7 @@ body {
 .task-card.dragging {
   opacity: 0.4;
   border: 2px dashed var(--primary);
+  pointer-events: none;
 }
 
 .task-card-header {
